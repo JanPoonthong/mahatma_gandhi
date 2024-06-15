@@ -7,9 +7,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <div>
-        {/* Write your code here*/}
-      </div>
+      <div>{/* Write your code here*/}</div>
 
       <div className="flex gap-20">
         <TimeLineBar />

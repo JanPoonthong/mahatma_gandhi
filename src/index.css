@@ -2,11 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
 html {
   padding: 20px;
   font-family: "Inria Serif", serif;
-  background-image: url("./assets/grunge.png")
+  background-image: url("./assets/grunge.png");
 }
 
 .inria-serif-light {
