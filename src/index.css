@@ -43,3 +43,19 @@ html {
   font-weight: 700;
   font-style: italic;
 }
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.text-container {
+  position: relative;
+  animation: slideInFromTop 1.0s ease-in-out;
+}
