@@ -57,5 +57,5 @@ html {
 
 .text-container {
   position: relative;
-  animation: slideInFromTop 1.0s ease-in-out;
+  animation: slideInFromTop 1s ease-in-out;
 }

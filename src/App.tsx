@@ -10,7 +10,7 @@ function App() {
 
   function displayTextByIndex(index: number) {
     setIndexDisplayText(index);
-    setAnimation(true)
+    setAnimation(true);
     setTimeout(() => setAnimation(false), 1000);
   }
 
