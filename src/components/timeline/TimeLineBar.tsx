@@ -1,12 +1,13 @@
+import { useState } from "react";
 import clsx from "clsx";
 
-const timeLineData = [
-  { year: 1869, lineHeight: 4 },
-  { year: 1871, lineHeight: undefined },
-  { year: 1886, lineHeight: undefined },
-  { year: 1889, lineHeight: undefined },
-  { year: 1891, lineHeight: undefined },
-  { year: 1893, lineHeight: undefined },
+const initialTimeLineData = [
+  { year: 1869, lineHeight: 8, active: true },
+  { year: 1871, lineHeight: undefined, active: false },
+  { year: 1886, lineHeight: undefined, active: false },
+  { year: 1889, lineHeight: undefined, active: false },
+  { year: 1891, lineHeight: undefined, active: false },
+  { year: 1893, lineHeight: undefined, active: false },
 ];
 
 export default function TimeLineBar({
@@ -14,37 +15,59 @@ export default function TimeLineBar({
 }: {
   onIndexChange: (index: number) => void;
 }) {
+  const [timeLineData, setTimeLineData] = useState(initialTimeLineData);
+
+  const handleIndexChange = (index: number) => {
+    onIndexChange(index);
+    setTimeLineData(
+      timeLineData.map((item, idx) => ({
+        ...item,
+        active: idx === index,
+        lineHeight: idx === index ? 8 : undefined,
+      })),
+    );
+  };
+
   return (
-    <div className="text-center w-28 ">
-      {timeLineData.map((each, index) => {
-        return (
-          <div key={each.year}>
-            <Box year={each.year} index={index} onIndexChange={onIndexChange} />
-            <Line height={each.lineHeight} />
-          </div>
-        );
-      })}
+    <div className="text-center w-28">
+      {timeLineData.map((each, index) => (
+        <div key={each.year}>
+          <Box
+            active={each.active ? "active" : ""}
+            year={each.year}
+            index={index}
+            onIndexChange={handleIndexChange}
+          />
+          {index < timeLineData.length - 1 && <Line height={each.lineHeight} />}
+        </div>
+      ))}
     </div>
   );
 }
 
 function Box({
+  active,
   year,
   index,
   onIndexChange,
 }: {
+  active: string;
   year: number;
   index: number;
   onIndexChange: (index: number) => void;
 }) {
-  function handleOnClick(index: number) {
-    onIndexChange(index);
-  }
-
   return (
     <button
-      onClick={() => handleOnClick(index)}
-      className="flex justify-center items-center bg-white text-black transition duration-500 hover:bg-black hover:text-white text-2xl w-full h-14"
+      onClick={() => onIndexChange(index)}
+      className={clsx(
+        "flex justify-center items-center text-2xl w-full h-14 transition duration-500",
+        active,
+        {
+          "bg-white text-black hover:bg-black hover:text-white":
+            active !== "active",
+          "bg-black text-white": active === "active",
+        },
+      )}
     >
       {year}
     </button>
@@ -54,8 +77,8 @@ function Box({
 function Line({ height }: { height?: number }) {
   return (
     <span
-      className={clsx("block border-l-4 border-black relative left-2/4")}
-      style={{ height: height != undefined ? `${height}rem` : "2rem" }}
+      className="block border-l-4 border-black relative left-2/4 line-transition"
+      style={{ height: height !== undefined ? `${height}rem` : "2rem" }}
     ></span>
   );
 }

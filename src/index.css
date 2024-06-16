@@ -59,3 +59,7 @@ html {
   position: relative;
   animation: slideInFromTop 1s ease-in-out;
 }
+
+.line-transition {
+  transition: height 0.5s ease;
+}
