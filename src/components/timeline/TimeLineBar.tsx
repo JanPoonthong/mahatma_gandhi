@@ -21,7 +21,7 @@ export default function TimeLineBar({
   };
 
   return (
-    <div className="text-center w-28 hidden">
+    <div className="text-center w-28 max-sm:hidden">
       {timeLineData.map((each, index) => (
         <div key={each.year}>
           <Box
