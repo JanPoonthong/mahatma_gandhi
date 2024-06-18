@@ -29,7 +29,7 @@ export default function TimeLineBar({
   };
 
   return (
-    <div className="text-center w-28">
+    <div className="text-center w-28 hidden">
       {timeLineData.map((each, index) => (
         <div key={each.year}>
           <Box
