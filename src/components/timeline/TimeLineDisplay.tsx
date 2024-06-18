@@ -11,7 +11,7 @@ export default function TimeLineDisplay({
   return (
     <div
       className={clsx(
-        "w-full border border-black text-3xl p-4",
+        "w-full border border-black text-3xl p-4 max-sm:text-xl",
         animation ? "text-container" : "",
       )}
     >
