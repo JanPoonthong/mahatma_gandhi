@@ -1,14 +1,6 @@
 import { useState } from "react";
 import clsx from "clsx";
-
-const initialTimeLineData = [
-  { year: 1869, lineHeight: 8, active: true },
-  { year: 1871, lineHeight: undefined, active: false },
-  { year: 1886, lineHeight: undefined, active: false },
-  { year: 1889, lineHeight: undefined, active: false },
-  { year: 1891, lineHeight: undefined, active: false },
-  { year: 1893, lineHeight: undefined, active: false },
-];
+import { initialTimeLineData } from "../../../data/timeLineData";
 
 export default function TimeLineBar({
   onIndexChange,

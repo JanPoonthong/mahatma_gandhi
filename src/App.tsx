@@ -22,7 +22,10 @@ function App() {
 
       <div className="flex max-sm:flex-col max-sm:items-center max-sm:gap-10 gap-20">
         <TimeLineBar onIndexChange={displayTextByIndex} />
-        <TimeLineBarMobile />
+        <TimeLineBarMobile
+          index={indexDisplayText}
+          onIndexChange={displayTextByIndex}
+        />
         <TimeLineDisplay index={indexDisplayText} animation={animation} />
       </div>
     </>
