@@ -28,6 +28,8 @@ function App() {
         />
         <TimeLineDisplay index={indexDisplayText} animation={animation} />
       </div>
+
+      <div>{/* Write your code here*/}</div>
     </>
   );
 }
