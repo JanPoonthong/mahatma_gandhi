@@ -5,10 +5,10 @@ function parser() {
   textData.map((each) => {
     each.text.map((char) => {
       char.li.map((c) => {
-        console.log(c)
-      })
-    })
-  })
+        console.log(c);
+      });
+    });
+  });
 }
 
 export default function TimeLineDisplay({
