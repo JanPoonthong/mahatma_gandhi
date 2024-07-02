@@ -1,14 +1,15 @@
 import clsx from "clsx";
 import { textData } from "../../../data/timeLineData";
 
-function parser() {
-  textData.map((each) => {
-    each.text.map((char) => {
-      char.li.map((c) => {
-        console.log(c);
-      });
-    });
+function parser(char: string) {
+  const regex = /<%>(.*?)<\/%>/g;
+  const matches = char.match(regex);
+  const innerText = matches?.map((match) => {
+    return match.match(/<%>(.*?)<\/%>/)?.[1];
   });
+  const parsedText = char.replace(regex, `<strong>${innerText?.[0]}</strong>`);
+
+  return parsedText;
 }
 
 export default function TimeLineDisplay({
@@ -18,7 +19,6 @@ export default function TimeLineDisplay({
   index: number;
   animation: boolean;
 }) {
-  parser();
   return (
     <div
       className={clsx(
@@ -41,7 +41,7 @@ export default function TimeLineDisplay({
         {textData[index]?.text.map((each) => {
           return (
             <li className="text-2xl list-disc" key={each.li}>
-              {each.li}
+              <div dangerouslySetInnerHTML={{ __html: parser(each.li) }} />
             </li>
           );
         })}
