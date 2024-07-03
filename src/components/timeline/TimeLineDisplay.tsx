@@ -40,7 +40,7 @@ export default function TimeLineDisplay({
       <div className="ml-16">
         {textData[index]?.text.map((each) => {
           return (
-            <li className="text-2xl list-disc" key={each.li}>
+            <li className="text-2xl list-disc max-sm:text-lg" key={each.li}>
               <div dangerouslySetInnerHTML={{ __html: parser(each.li) }} />
             </li>
           );

@@ -1,10 +1,9 @@
 export const initialTimeLineData = [
   { year: 1869, lineHeight: 8, active: true },
   { year: 1888, lineHeight: undefined, active: false },
-  { year: 1886, lineHeight: undefined, active: false },
-  { year: 1889, lineHeight: undefined, active: false },
-  { year: 1891, lineHeight: undefined, active: false },
   { year: 1893, lineHeight: undefined, active: false },
+  { year: 1915, lineHeight: undefined, active: false },
+  { year: 1947, lineHeight: undefined, active: false },
 ];
 
 export const textData = [
@@ -63,6 +62,65 @@ export const textData = [
       {
         title: "England",
         li: "Sailed to England to study law at University College London.",
+      },
+    ],
+  },
+  {
+    text: [
+      {
+        title: "South Africa and the Birth of Satyagraha",
+        li: "1893: Went to South Africa to work as a lawyer.  ",
+      },
+      {
+        li: "1894: Founded the Natal Indian Congress to fight discrimination.",
+      },
+      {
+        li: "1906: Led the first mass nonviolent resistance (Satyagraha) campaign in South Africa.",
+      },
+    ],
+  },
+  {
+    text: [
+      {
+        title: "Return to India and Rise as a Leader",
+        li: "1915: Returned to India and joined the Indian National Congress.",
+      },
+      {
+        li: "1917: Led the Champaran Satyagraha to address the grievances of farmers.",
+      },
+      {
+        li: "1918: Led the Kheda Satyagraha to support farmers affected by floods and famine.",
+      },
+    ],
+  },
+  {
+    text: [
+      {
+        title: "Struggle for Indian Independence",
+        li: "1919: Organized protests against the Rowlatt Act; Jallianwala Bagh massacre occurred.",
+      },
+      {
+        li: "1920: Launched the Non-Cooperation Movement.",
+      },
+      {
+        li: "1930: Led the Salt March to Dandi to protest the salt tax (Civil Disobedience Movement).",
+      },
+      {
+        li: "1931: Attended the Second Round Table Conference in London.",
+      },
+      {
+        li: "1942: Launched the Quit India Movement demanding an end to British rule.",
+      },
+    ],
+  },
+  {
+    text: [
+      {
+        title: "Final Years and Legacy",
+        li: "1947: India gained independence from British rule on August 15; partition created India and Pakistan.",
+      },
+      {
+        li: "1948: Assassinated on January 30 in New Delhi by Nathuram Godse.",
       },
     ],
   },
