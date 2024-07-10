@@ -60,8 +60,41 @@ export const textData = [
   {
     text: [
       {
-        title: "England",
-        li: "Sailed to England to study law at University College London.",
+        title: "Gandhi's Time at University College London",
+        li: "Sailedto England to study law at University College London.",
+      },
+      {
+        li: "Gandhi enrolled in <%>UCL's law program</%> to become a barrister. His studies included <%>Roman law, jurisprudence, and English law</%>",
+      },
+      {
+        li: "He passed his examinations and was called to the Bar in 1891.",
+      },
+      {
+        li: "Adjusting to life in England was challenging for Gandhi",
+      },
+      {
+        li: "He joined the <%>Vegetarian Society</%> and became an active member, contributing articles and attending meetings.",
+      },
+      {
+        li: "Living in London exposed Gandhi to Western culture and ideas",
+      },
+      {
+        li: "He attended the opera, visited museums, and read widely",
+      },
+      {
+        li: "This exposure broadened his worldview and helped shape his future philosophies",
+      },
+      {
+        li: "Gandhi's time at UCL provided him with a solid foundation in legal principles and practice",
+      },
+      {
+        li: "The training he received there equipped him with the skills necessary to practice law in India and later in South Africa",
+      },
+      {
+        li: "Gandhi's years in London were transformative",
+      },
+      {
+        li: "He developed self-discipline, broadened his intellectual horizons, and began to formulate the principles of non-violence and civil rights that would later define his work",
       },
     ],
   },
