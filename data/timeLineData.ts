@@ -101,59 +101,62 @@ export const textData = [
   {
     text: [
       {
-        title: "South Africa and the Birth of Satyagraha",
-        li: "1893: Went to South Africa to work as a lawyer.  ",
+        title:
+          "Establishing Foundations for Civil Rights Activism in South Africa",
+        li: "Gandhi arrived in South Africa to serve as a legal advisor for an Indian firm. His experiences this year would profoundly shape his future activism.",
       },
       {
-        li: "1894: Founded the Natal Indian Congress to fight discrimination.",
+        li: "A defining moment occurred when Gandhi was forcibly ejected from a first-class train compartment at Pietermaritzburg, solely due to racial prejudice, despite holding a valid ticket.",
       },
       {
-        li: "1906: Led the first mass nonviolent resistance (Satyagraha) campaign in South Africa.",
-      },
-    ],
-  },
-  {
-    text: [
-      {
-        title: "Return to India and Rise as a Leader",
-        li: "1915: Returned to India and joined the Indian National Congress.",
+        li: "The discrimination faced catalyzed his resolve to fight against racial injustices. This led to the beginning of his lifelong activism.",
       },
       {
-        li: "1917: Led the Champaran Satyagraha to address the grievances of farmers.",
+        li: "Gandhi established the Natal Indian Congress, aiming to unify the Indian community in South Africa and challenge discriminatory laws through organized protests.",
       },
       {
-        li: "1918: Led the Kheda Satyagraha to support farmers affected by floods and famine.",
+        li: "Inspired by his experiences, Gandhi started to develop the Satyagraha philosophy of nonviolent resistance, which emphasized the power of mass civil disobedience.",
       },
     ],
   },
   {
     text: [
       {
-        title: "Struggle for Indian Independence",
-        li: "1919: Organized protests against the Rowlatt Act; Jallianwala Bagh massacre occurred.",
+        title: "Return to India and Intensification of the Freedom Struggle",
+        li: "After two decades in South Africa, Gandhi returned to India, bringing with him revolutionary ideas of passive resistance and community organization.",
       },
       {
-        li: "1920: Launched the Non-Cooperation Movement.",
+        li: "He established the Sabarmati Ashram in Ahmedabad, which became the nerve center for his campaign against British rule. The ashram promoted principles of self-sufficiency and nonviolence.",
       },
       {
-        li: "1930: Led the Salt March to Dandi to protest the salt tax (Civil Disobedience Movement).",
+        li: "Gandhi's approach and methods quickly elevated him to a leadership position within the Indian National Congress, steering the independence movement towards nonviolent resistance.",
       },
       {
-        li: "1931: Attended the Second Round Table Conference in London.",
+        li: "Initiated his first major Satyagraha campaigns in Champaran and Kheda, advocating for the rights of farmers oppressed by unjust plantation systems and local taxation respectively. ",
       },
       {
-        li: "1942: Launched the Quit India Movement demanding an end to British rule.",
+        li: "Advocated for an education system that reflected Indian values and independence, and promoted the concept of Swaraj or self-rule, encouraging Indians to rely on their capabilities.",
       },
     ],
   },
   {
     text: [
       {
-        title: "Final Years and Legacy",
-        li: "1947: India gained independence from British rule on August 15; partition created India and Pakistan.",
+        title:
+          "The Culmination of the Independence Struggle and the Trauma of Partition",
+        li: "Witnessed the culmination of the independence struggle with India’s freedom from British colonial rule declared on August 15, 1947.",
       },
       {
-        li: "1948: Assassinated on January 30 in New Delhi by Nathuram Godse.",
+        li: "The joy of independence was overshadowed by the partition of British India into two nations, India and Pakistan, leading to unprecedented communal violence and massive migrations.",
+      },
+      {
+        li: "Gandhi was deeply disturbed by the communal violence and worked relentlessly to ease the tensions between Hindus and Muslims. His efforts included extensive travels to riot-affected areas and numerous fasts to promote reconciliation and peace.",
+      },
+      {
+        li: "Continued to advocate for nonviolence and unity amidst widespread strife, standing firm on his beliefs even as the violence escalated.",
+      },
+      {
+        li: "Gandhi's life tragically ended with his assassination on January 30, 1948, but his teachings on nonviolence and peace left a lasting legacy, influencing civil rights movements and leaders across the world.",
       },
     ],
   },
