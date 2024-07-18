@@ -23,7 +23,7 @@ export default function TimeLineDisplay({
     <div
       className={clsx(
         "w-full border border-black text-3xl p-4 max-sm:text-xl",
-        animation ? "text-container" : "",
+        animation ? "text-container" : ""
       )}
     >
       {textData[index]?.text.map((each) => {
@@ -37,11 +37,18 @@ export default function TimeLineDisplay({
         );
       })}
 
-      <div className="ml-16">
+      <div className="sm:ml-8 ml-2">
         {textData[index]?.text.map((each) => {
           return (
-            <li className="text-2xl list-disc max-sm:text-lg" key={each.li}>
-              <div dangerouslySetInnerHTML={{ __html: parser(each.li) }} />
+            <li
+              className="text-2xl list-disc max-sm:text-lg mt-4"
+              key={each.li}
+            >
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: parser(each.li),
+                }}
+              ></span>
             </li>
           );
         })}
