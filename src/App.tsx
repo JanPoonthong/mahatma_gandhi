@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./App.css";
 import NavBar from "./components/navbar/NavBar";
 import Home from "./components/home/home";
 import Takeaway from "./components/Takeaway/Takeaway";
@@ -20,7 +21,10 @@ function App() {
       <div className="max-w-[1260px]">
         <NavBar />
         <Home />
-        <div className="flex max-sm:flex-col max-sm:items-center max-sm:gap-10 gap-20">
+        <div
+          id="timeline"
+          className="flex max-sm:flex-col max-sm:items-center max-sm:gap-10 gap-20"
+        >
           <TimeLineBar onIndexChange={displayTextByIndex} />
           <TimeLineBarMobile
             index={indexDisplayText}
@@ -28,7 +32,9 @@ function App() {
           />
           <TimeLineDisplay index={indexDisplayText} animation={animation} />
         </div>
-        <Takeaway />
+        <div id="takeaway">
+          <Takeaway />
+        </div>
       </div>
     </div>
   );
