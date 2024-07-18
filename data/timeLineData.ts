@@ -103,19 +103,19 @@ export const textData = [
       {
         title:
           "Establishing Foundations for Civil Rights Activism in South Africa",
-        li: "Gandhi arrived in South Africa to serve as a legal advisor for an Indian firm. His experiences this year would profoundly shape his future activism.",
+        li: "Gandhi <%>arrived in South Africa</%> to serve as a legal advisor for an Indian firm. His experiences this year would profoundly shape his future activism.",
       },
       {
-        li: "A defining moment occurred when Gandhi was forcibly ejected from a first-class train compartment at Pietermaritzburg, solely due to racial prejudice, despite holding a valid ticket.",
+        li: "A defining moment occurred when Gandhi was forcibly ejected from a first-class train compartment at Pietermaritzburg, solely due to <%>racial prejudice</%>, despite holding a valid ticket.",
       },
       {
-        li: "The discrimination faced catalyzed his resolve to fight against racial injustices. This led to the beginning of his lifelong activism.",
+        li: "The discrimination faced catalyzed his <%>resolve to fight against racial injustices.</%> This led to the beginning of his lifelong activism.",
       },
       {
-        li: "Gandhi established the Natal Indian Congress, aiming to unify the Indian community in South Africa and challenge discriminatory laws through organized protests.",
+        li: "Gandhi <%>established the Natal Indian Congress</%>, aiming to unify the Indian community in South Africa and challenge discriminatory laws through organized protests.",
       },
       {
-        li: "Inspired by his experiences, Gandhi started to develop the Satyagraha philosophy of nonviolent resistance, which emphasized the power of mass civil disobedience.",
+        li: "Inspired by his experiences, Gandhi started to <%>develop the Satyagraha philosophy of nonviolent resistance</%>, which emphasized the power of mass civil disobedience.",
       },
     ],
   },
@@ -123,19 +123,19 @@ export const textData = [
     text: [
       {
         title: "Return to India and Intensification of the Freedom Struggle",
-        li: "After two decades in South Africa, Gandhi returned to India, bringing with him revolutionary ideas of passive resistance and community organization.",
+        li: "After two decades in South Africa, Gandhi returned to India, bringing with him <%>revolutionary ideas of passive resistance</%> and community organization.",
       },
       {
-        li: "He established the Sabarmati Ashram in Ahmedabad, which became the nerve center for his campaign against British rule. The ashram promoted principles of self-sufficiency and nonviolence.",
+        li: "He <%>established the Sabarmati Ashram in Ahmedabad</%>, which became the nerve center for his campaign against British rule. The ashram promoted principles of self-sufficiency and nonviolence.",
       },
       {
-        li: "Gandhi's approach and methods quickly elevated him to a leadership position within the Indian National Congress, steering the independence movement towards nonviolent resistance.",
+        li: "Gandhi's approach and methods quickly elevated him to a <%>leadership position within the Indian National Congress</%>, steering the independence movement towards nonviolent resistance.",
       },
       {
         li: "Initiated his first major Satyagraha campaigns in Champaran and Kheda, advocating for the rights of farmers oppressed by unjust plantation systems and local taxation respectively. ",
       },
       {
-        li: "Advocated for an education system that reflected Indian values and independence, and promoted the concept of Swaraj or self-rule, encouraging Indians to rely on their capabilities.",
+        li: "Advocated for an education system that reflected Indian values and independence, and <%>promoted the concept of Swaraj or self-rule</%>, encouraging Indians to rely on their capabilities.",
       },
     ],
   },
@@ -144,19 +144,19 @@ export const textData = [
       {
         title:
           "The Culmination of the Independence Struggle and the Trauma of Partition",
-        li: "Witnessed the culmination of the independence struggle with India’s freedom from British colonial rule declared on August 15, 1947.",
+        li: "<%>Witnessed the culmination of the independence struggle with India’s freedom from British colonial</%> rule declared on August 15, 1947.",
       },
       {
         li: "The joy of independence was overshadowed by the partition of British India into two nations, India and Pakistan, leading to unprecedented communal violence and massive migrations.",
       },
       {
-        li: "Gandhi was deeply disturbed by the communal violence and worked relentlessly to ease the tensions between Hindus and Muslims. His efforts included extensive travels to riot-affected areas and numerous fasts to promote reconciliation and peace.",
+        li: "Gandhi was deeply disturbed by the communal violence and worked relentlessly to ease the tensions between Hindus and Muslims. <%>His efforts</%> included extensive travels to riot-affected areas and numerous fasts to <%>promote reconciliation and peace</%>.",
       },
       {
-        li: "Continued to advocate for nonviolence and unity amidst widespread strife, standing firm on his beliefs even as the violence escalated.",
+        li: "<%>Continued to advocate for nonviolence and unity amidst widespread strife</%>, standing firm on his beliefs even as the violence escalated.",
       },
       {
-        li: "Gandhi's life tragically ended with his assassination on January 30, 1948, but his teachings on nonviolence and peace left a lasting legacy, influencing civil rights movements and leaders across the world.",
+        li: "<%>Gandhi's life tragically ended with his assassination</%> on January 30, 1948, but his teachings on nonviolence and peace left a lasting legacy, influencing civil rights movements and leaders across the world.",
       },
     ],
   },
