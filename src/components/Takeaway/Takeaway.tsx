@@ -4,29 +4,45 @@ type Props = {};
 function Takeaway({}: Props) {
   const takeaways = [
     {
-      title: "Non-Violence",
-      details:
-        "This approach encourages resolving disputes through understanding and mutual respect rather than coercion and aggression, promoting a broader ethical stance that values peace over conflict.",
+      title: "Non-Violence: Ahiṃsā",
+      gandhi:
+        "Gandhi believed in and practiced non-violence as a means to bring about social and political change.",
+      details: `This approach encourages resolving disputes through understanding and mutual respect rather than aggression, promoting a broader ethical stance that values peace over conflict.`,
     },
     {
-      title: "Simplicity and Humility",
+      title: "Tolerance and Respect for All Living Beings",
+      gandhi:
+        "Influenced by Jain teachings, Gandhi practiced mutual tolerance and non-injury to all living beings. His vegetarianism was a part of this ethical stance.",
       details:
-        "personal and societal well-being lies in simplicity and sustainability rather than in endless consumption, promoting an ethical relationship with the environment and resources",
+        "This approach can be practiced by showing respect for all living beings, regardless of their background or beliefs. It encourages empathy and understanding, fostering a more inclusive and compassionate society.",
     },
     {
-      title: "Social Justice",
+      title: "Courage and Determination",
+      gandhi:
+        "Gandhi’s courage to stand up against injustice and his determination to achieve independence for India through many difficulties.",
       details:
-        "Gandhi’s activism extended to fighting discrimination and striving for social justice. His work against the caste system in India, particularly his efforts to uplift the untouchables whom he renamed Harijans (children of God), illustrates his commitment to social equity. This aspect of his ethical framework underscores the importance of fairness and equal rights within society",
+        "This approach can be practiced in daily life by encouraging ourselves to have courage and determination in carrying out our goals and standing up for what we believe in, even in the face of challanges.",
+    },
+    {
+      title: "Community and Collective Action",
+      gandhi:
+        "Gandhi’s approach to social and political issues emphasized the importance of community and collective action. He mobilized millions of people to participate in the independence movement.",
+      details:
+        "This approach reminds us that we can achieve more when we work together as a community, supporting each other and taking collective action to address common challenges and achieve shared goals.",
     },
   ];
   return (
     <div className="mt-10">
       <p className="text-4xl bold mb-4">Takeaway Notes</p>
-      <div className="sm:flex flex-wrap items-start justify-around gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {takeaways.map((take, index) => {
           return (
             <div key={index}>
-              <TakeawayCard title={take.title} details={take.details} />
+              <TakeawayCard
+                title={take.title}
+                details={take.details}
+                gandhi={take.gandhi}
+              />
             </div>
           );
         })}

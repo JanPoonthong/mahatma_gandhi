@@ -4,8 +4,8 @@ function NavBar() {
       <a className="bg-black text-white p-2 rounded" href="#">
         HOME
       </a>
-      <a href="#">BIO</a>
-      <a href="#">LEARN</a>
+      <a href="#timeline">BIO</a>
+      <a href="#takeaway">LEARN</a>
     </div>
   );
 }
